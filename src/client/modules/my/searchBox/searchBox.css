@@ -1,0 +1,19 @@
+.searchBox{
+    background: white;
+    margin: -3rem 1rem;
+    box-shadow: 0px 0px 1px;
+    border-radius: 10px;
+}
+
+.customInput:focus{
+    box-shadow: none;
+    outline: none;
+    border-left: none;
+}
+
+.customButton, .customButton:hover, .customButton:active, .customButton:focus{
+    background: purple;
+    border-color: purple;
+    box-shadow: none;
+    outline: none;
+}
